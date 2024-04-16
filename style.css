@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Jersey+10&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    background: linear-gradient(
+        135deg,
+        rgb(136, 233, 136),
+        rgb(154, 154, 252)
+    );
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.container{
+    /* border: 2px solid red; */
+    width: 50%;
+    min-width: 500px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 10px rgba(0, 0, 0, 0.16);
+}
+
+.scores{
+    /* border: 2px solid blueviolet; */
+    margin-bottom: 30px;
+    text-align: right;
+}
+
+.weapons{
+    /* border: 2px solid orangered; */
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+}
+
+.weapons button{
+    background-color: rgb(235, 131, 93);
+    border: none;
+    font-size: 50px;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.details{
+    margin-top: 30px;
+    text-align: center;
+}
+
+.scores, .details{
+    font-family: "Jersey 10", sans-serif;
+    font-weight: 500;
+    font-size: 30px;
+}
+
+#user_choice,#computer_choice{
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+#result{
+    width: 180px;
+    padding: 10px 0;
+    margin: 30px auto;
+    font-weight: 600;
+    letter-spacing: 0.5;
+}
+
+span{
+    font-weight: 600;
+    /* background-color: rgb(219, 219, 219); */
+}
